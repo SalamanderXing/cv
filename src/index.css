@@ -71,15 +71,16 @@ h3 {
   h4,
   h5,
   h6 {
-    color: #fff;
+    /*color: #fff;*/
   }
 
   a {
-    color: #00f;
+    /*color: #00f;*/
   }
   .page {
-    background-color: #333;
-    color: #000;
+    /*background-color: #333;*/
+    /*color: #000;*/
+    background-color: white;
   }
   .page,
   .page a,
@@ -94,15 +95,15 @@ h3 {
   .page ol,
   .page li,
   .page span {
-    color: #fff;
+    /*color: #fff;*/
   }
   a:hover,
   a:active {
-    color: #f00;
+    /*color: #f00;*/
   }
   html,
   body {
-    background-color: black;
+    background-color: lightgray;
   }
 }
 .icon-container {
