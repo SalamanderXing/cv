@@ -1,7 +1,6 @@
 # Curriculum Vitae
 
-
-Curriculum vitae written in React, TypeScript and Vite.
+My curriculum vitae written in React, TypeScript and Vite.
 
 ## Scripts
 Usual vite scripts are available:
