@@ -13,3 +13,7 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## Get the PDF
+
+Use the default browser print function to get a PDF, should look nice.
