@@ -2,6 +2,8 @@
 
 My curriculum vitae written in React, TypeScript and Vite. In the future I might turn this into a general purpose CV template.
 
+- [Live Demo](https://salamanderxing.github.io/cv/)
+
 ## Scripts
 Usual vite scripts are available:
 ```bash
