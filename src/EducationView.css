@@ -1,0 +1,52 @@
+.experience-list {
+  padding: 0;
+  list-style: none;
+}
+
+.experience-item {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.experience-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.experience-dates {
+  font-size: 0.875rem;
+  color: gray;
+  margin-bottom: 0.5rem;
+}
+
+.experience-location,
+.experience-supervisor,
+.experience-type {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-description {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.technologies {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.technology {
+  background-color: #ddd;
+  color: #333;
+  padding: 2px 5px;
+  margin-right: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 0.8em;
+  text-align: center;
+}

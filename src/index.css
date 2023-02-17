@@ -1,0 +1,116 @@
+/*page should be one per line*/
+/*
+.a4page {
+  background-color: white;
+  height: 29.7cm;
+  width: 21cm;
+  background-color: white;
+  margin: 0;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px !important;
+  padding-bottom: 30px;
+  font-family: 'Josefin Sans'; font-size: 18px;
+  border: 1px solid black;
+  overflow: hidden;
+  page-break-after: always;
+}
+*/
+
+.skills-pill-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pill-span {
+  background-color: #ddd;
+  color: #333;
+  padding: 2px 5px;
+  margin-right: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 0.8em;
+  text-align: center;
+}
+.page {
+  line-height: 1.5;
+  width: 21cm;
+  height: 35cm;
+  padding-top: 1cm;
+  padding-bottom: -1cm;
+  padding-left: 2.5cm;
+  padding-right: 2.5cm;
+  margin: 0.1cm auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  page-break-after: always;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+@media print {
+  .page {
+    margin: 0;
+    box-shadow: none !important;
+  }
+}
+a {
+  color: #0077cc;
+  text-decoration: none;
+  /*border-bottom: 1px solid #0077cc;*/
+}
+
+a:hover {
+  color: #0077cc;
+}
+h2,
+h3 {
+  margin-top: 40px;
+}
+@media screen {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #fff;
+  }
+
+  a {
+    color: #00f;
+  }
+  .page {
+    background-color: #333;
+    color: #000;
+  }
+  .page,
+  .page a,
+  .page p,
+  .page h1,
+  .page h2,
+  .page h3,
+  .page h4,
+  .page h5,
+  .page h6,
+  .page ul,
+  .page ol,
+  .page li,
+  .page span {
+    color: #fff;
+  }
+  a:hover,
+  a:active {
+    color: #f00;
+  }
+  html,
+  body {
+    background-color: black;
+  }
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container a {
+  margin: 0 10px;
+}
