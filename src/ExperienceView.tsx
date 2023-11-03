@@ -18,8 +18,8 @@ const ExperienceCard: React.FC<ExperienceCardProps> = (
     <div
       className="card"
       style={{
-        marginRight: (index % 2) === 0 ? "15px" : "0",
-        marginLeft: (index % 2) !== 0 ? "15px" : "0",
+        marginRight: (index % 2) === 0 ? "5px" : "0",
+        marginLeft: (index % 2) !== 0 ? "5px" : "0",
       }}
     >
       <h3 className="experience-title">{experience.title}</h3>

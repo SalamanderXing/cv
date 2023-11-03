@@ -53,6 +53,7 @@ const Header = () => (
 const ProfileSection = () => (
   <div className="profile-section">
     <img src="profile.jpeg" alt="Giulio Zani" className="profile-pic" />
+    <div></div>
     <p className="profile-description" style={{ marginTop: "20px" }}>
       {data.description}
     </p>

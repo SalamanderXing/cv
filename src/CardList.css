@@ -1,12 +1,12 @@
 .grid {
   display: flex;
   flex-direction: column;
-  gap: 20px; /* vertical gap between rows */
+  gap: 10px; /* vertical gap between rows */
 }
 
 .row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 15px; /* horizontal gap between items */
+  gap: 0px; /* horizontal gap between items */
 }

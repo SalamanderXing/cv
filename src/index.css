@@ -23,7 +23,7 @@
   padding: 15px;
   box-sizing: border-box;
   transition: background-color 0.3s ease;
-  max-width: 47.5%;
+  max-width: 49%;
 }
 
 .card:hover {
@@ -53,8 +53,8 @@
 }
 .page {
   /* line-height: 1.5; */
-  max-width: 21cm;
-  max-height: 35cm;
+  width: 21cm;
+  height: 35cm;
   padding-top: 1cm;
   padding-bottom: 0;
   padding-left: 2.5cm;
