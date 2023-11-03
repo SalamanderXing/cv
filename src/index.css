@@ -53,8 +53,8 @@
 }
 .page {
   /* line-height: 1.5; */
-  width: 21cm;
-  height: 35cm;
+  max-width: 21cm;
+  max-height: 35cm;
   padding-top: 1cm;
   padding-bottom: 0;
   padding-left: 2.5cm;
@@ -69,6 +69,8 @@
   .page {
     margin: 0;
     box-shadow: none !important;
+    width: 21cm;
+    height: 35cm;
   }
 }
 a {

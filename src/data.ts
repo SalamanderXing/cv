@@ -1,5 +1,5 @@
 const description =
-  `I am an enthusiastic AI practitioner with a strong background in deep learning, experienced in applying frameworks like PyTorch, TensorFlow and JAX. With years of mentoring in AI/ML and coding in Python, I thrive on tackling fresh challenges and I love creating smart things!. I'm looking for opportunities that require both AI engineering and research.`;
+  `I am an enthusiastic AI developer with a strong background in deep learning, experienced in applying frameworks like PyTorch, TensorFlow and JAX. With years of mentoring in AI/ML and coding in Python, I thrive on tackling fresh challenges and I love creating smart things! I'm looking for opportunities that require both AI engineering and research.`;
 const spokenLanguages = [
   {
     name: "🇬🇧",
