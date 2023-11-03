@@ -53,8 +53,8 @@ It’s okay to brag about your GPA, awards, and honors. Feel free to summarize y
 
 The librairies I use the most are:
 
-- PyTorch/PyTorch Lightning
 - Jax/Flax
+- PyTorch/PyTorch Lightning
 - Numpy, Pandas, Scikit-learn, Scipy, Matplotlib
 - Tensorflow/Keras
 

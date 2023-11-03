@@ -2,51 +2,143 @@
   padding: 0;
   list-style: none;
 }
-
 .experience-item {
-  margin-bottom: 1rem;
-  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .experience-title {
   font-size: 1.25rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
+  margin-top: 0.5rem;
 }
-
 .experience-dates {
   font-size: 0.875rem;
   color: gray;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
+  margin-top: 0;
 }
-
+td {
+  top: 0;
+  margin-top: 0;
+  width: 50%;
+  text-align: start;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+tr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .experience-location,
 .experience-supervisor,
 .experience-type {
   font-size: 0.875rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.1rem;
+  margin-top: 0.2rem;
 }
 
 .experience-description {
   font-size: 0.875rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.1rem;
+  margin-top: 0.1rem;
 }
 
-
 .technologies {
-  margin-top: 10px;
+  margin-top: 0.2rem;
   display: flex;
   flex-wrap: wrap;
 }
 
+/* .technology { */
+/*   background-color: #ddd; */
+/*   color: #333; */
+/*   padding: 3px 5px; */
+/*   margin-right: 10px; */
+/*   border-radius: 20px; */
+/*   /*display: inline-block;*/
+/*   font-size: 0.8em; */
+/*   text-align: center; */
+/* } */
 
+.experiences {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between rows */
+}
+
+.experience-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.experience-dates {
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.experience-location {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.experience-supervisor {
+  margin-bottom: 5px;
+}
+
+.experience-type {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.experience-description {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.technologies {
+  display: flex;
+  gap: 5px; /* Space between skills */
+}
+
+/* .technology { */
+/*   border: 1px solid #e1e1e1; */
+/*   border-radius: 3px; */
+/*   padding: 2px 5px; */
+/*   font-size: 12px; */
+/* } */
 .technology {
-  background-color: #ddd;
+  /*background-color: #ddd;*/
   color: #333;
   padding: 2px 5px;
   margin-right: 10px;
   border-radius: 20px;
-  /*display: inline-block;*/
+  border: 1px solid #5aa5d4;
+  display: inline-block;
   font-size: 0.8em;
   text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.soft-skill-pill {
+  color: black;
+  padding: 5px 10px;
+  margin: 1px;
+  border-radius: 20px;
+  border: 1px solid #5aa5d4;
+  display: inline-block;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.technology:hover {
+  background-color: #4898c3; /* A bit darker for hover effect */
 }

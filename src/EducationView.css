@@ -32,21 +32,36 @@
   margin-bottom: 0.5rem;
 }
 
-
 .technologies {
   margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
 }
 
-
 .technology {
-  background-color: #ddd;
+  /*background-color: #ddd;*/
   color: #333;
   padding: 2px 5px;
   margin-right: 10px;
   border-radius: 20px;
+  border: 1px solid #5aa5d4;
   display: inline-block;
   font-size: 0.8em;
   text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.soft-skill-pill {
+  color: black;
+  padding: 5px 10px;
+  margin: 1px;
+  border-radius: 20px;
+  border: 1px solid #5aa5d4;
+  display: inline-block;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.technology:hover {
+  background-color: #4898c3; /* A bit darker for hover effect */
 }

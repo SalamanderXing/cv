@@ -16,7 +16,27 @@
   page-break-after: always;
 }
 */
+.card {
+  flex: 1;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+  max-width: 47.5%;
+}
 
+.card:hover {
+  background-color: #f1f1f1;
+}
+
+.card:nth-child(odd) {
+  margin-right: 15px;
+}
+
+.card:nth-child(even) {
+  margin-left: 15px;
+}
 .skills-pill-container {
   display: flex;
   flex-wrap: wrap;
@@ -32,7 +52,7 @@
   text-align: center;
 }
 .page {
-  line-height: 1.5;
+  /* line-height: 1.5; */
   width: 21cm;
   height: 35cm;
   padding-top: 1cm;

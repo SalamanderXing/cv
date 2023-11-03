@@ -1,1 +1,231 @@
+/* .icon-container { */
+/*   margin-bottom: 50px; */
+/* } */
+/**/
+.profile-section {
+  /* display: flex; */
+  /* align-items: center; */
+  position: relative;
+}
 
+/* .profile-pic { */
+/*   width: 400px; */
+/*   height: 400px; */
+/*   border-radius: 50%; */
+/*   object-fit: cover; */
+/*   margin-right: 20px; */
+/* } */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2; /* Light gray for a bit contrast */
+  border-bottom: 1px solid #ddd; /* Thin border at the bottom */
+}
+
+.icon-container {
+  display: flex;
+  gap: 10px; /* Space between icons */
+  margin-top: 10px;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.profile-pic {
+  width: 150px;
+  /*height: 150px;*/
+  height: 150px;
+  float: left;
+  shape-outside: circle(50%);
+  clip-path: circle(50%);
+  margin-top: -20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the width and height defined without distortion */
+}
+.profile-description {
+  text-align: justify;
+  margin-bottom: auto;
+}
+.experience-section {
+  text-align: center;
+}
+
+h1 {
+  /*font-size: 2em; /* Adjusting font size */
+  margin: 10px 0; /* Reducing space around name */
+}
+
+.icon-container {
+  margin: 5px 0; /* Reducing space around icons */
+}
+
+/* .lang-item { */
+/*   background-color: #ffffff; */
+/*   padding: 6px 12px; */
+/*   margin: 5px 0; */
+/*   border-radius: 15px; */
+/*   display: inline-block; */
+/*   font-size: 0.9em; */
+/*   text-align: center; */
+/*   border: 1px solid #e0e0e0; */
+/* } */
+/**/
+/* .language-name { */
+/*   font-weight: bold; */
+/*   color: #1565c0; /* blue */
+
+/*   padding-right: 12px; */
+/* } */
+/**/
+/* .separator { */
+/*   height: 12px; */
+/*   width: 1px; */
+/*   background-color: #1565c0; /* blue */
+/*   display: inline-block; */
+/*   vertical-align: middle; */
+/*   margin-right: 12px; */
+/* } */
+/**/
+/* .language-level { */
+/*   font-weight: bold; */
+/*   text-transform: uppercase; */
+/*   letter-spacing: 0.5px; */
+/*   font-size: 0.85em; */
+/* } */
+/**/
+/* .language-level.Native { */
+/*   color: #4caf50; /* green */
+/* } */
+/**/
+/* .language-level.Fluent { */
+/*   color: #ff9800; /* orange */
+/* } */
+/**/
+/* .language-level.Intermediate { */
+/*   color: #ffb74d; /* lighter orange */
+/* } */
+/**/
+/* .language-level.Basic { */
+/*   color: #f44336; /* red */
+/* } */
+
+.language-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lang-item {
+  background-color: #ffffff;
+  padding: 6px 12px;
+  margin: 4px 0; /* added vertical spacing */
+  border-radius: 15px;
+  display: inline-flex; /* changed from inline-block */
+  align-items: center; /* align items vertically in the middle */
+  font-size: 0.9em;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  transition: background-color 0.3s ease;
+}
+
+.lang-item:hover {
+  background-color: #4898c3; /* A bit darker for hover effect */
+}
+
+.language-name {
+  font-weight: bold;
+  color: #1565c0;
+  padding-right: 12px;
+}
+
+.separator {
+  height: 12px;
+  width: 1px;
+  background-color: #1565c0;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+.language-level {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.85em;
+}
+
+.language-level.Native {
+  color: #4caf50;
+}
+
+.language-level.Fluent {
+  color: #ff9800;
+}
+
+.language-level.Intermediate {
+  color: #ffb74d;
+}
+
+.language-level.Basic {
+  color: #f44336;
+}
+
+.soft-skills-section {
+  border: 1px solid #ddd;
+  padding: 5px;
+  padding-top: 0;
+  border-radius: 5px;
+}
+
+.title-bar {
+  margin-top: 0 !important;
+  padding: 0px;
+  text-align: center;
+  border-radius: 3px 3px 0 0;
+}
+.title-bar > h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.pills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px 0;
+}
+table td, table th {
+    vertical-align: top;
+}
+
+
+/* Retain the previously defined .soft-skill-pill styles */
+
+/* Other CSS rules remain unchanged */
+
+.soft-skill-pill {
+  /*background-color: #5aa5d4; /* Adjusted to an even lighter shade of blue */
+  color: black;
+  padding: 5px 10px;
+  margin: 1px;
+  border-radius: 20px;
+  border: 1px solid #5aa5d4;
+  display: inline-block;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.soft-skill-pill:hover {
+  background-color: #4898c3; /* A bit darker for hover effect */
+}
+
+h2 {
+  width: 100%; /* Ensures the heading takes full width before the pills start */
+}
