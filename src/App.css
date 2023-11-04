@@ -87,6 +87,7 @@ h1 {
 
 .lang-item:hover {
   background-color: #4898c3; /* A bit darker for hover effect */
+  color: white;
 }
 
 .language-name {
@@ -174,6 +175,7 @@ table th {
 
 .soft-skill-pill:hover {
   background-color: #4898c3; /* A bit darker for hover effect */
+  color: white;
 }
 
 h2 {

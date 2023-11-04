@@ -51,8 +51,17 @@
   font-size: 0.8em;
   text-align: center;
 }
+@keyframes unblur {
+  from {
+    filter: blur(10px);
+  }
+  to {
+    filter: blur(0);
+  }
+}
 .page {
   /* line-height: 1.5; */
+  animation: unblur 2s ease-out forwards;
   width: 21cm;
   height: 35cm;
   padding-top: 1cm;
