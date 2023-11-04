@@ -164,7 +164,7 @@ export default [
     location: "UvA, Amsterdam",
     title: "Optimized ELBO in Graph Diffusion Models",
     description:
-      "Enhanced Evidence LOwer Bound computation in graph diffusion models, applied to molecular datasets.",
+      "Enhanced Evidence Lower BOund computation in graph diffusion models, applied to molecular datasets.",
     skills: ["Python", "JAX", "TPU"],
   },
   {
