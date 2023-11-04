@@ -35,13 +35,13 @@ const App = () => {
 //{/*<EducationSection />*/}
 const Header = () => (
   <div style={{ textAlign: "center", marginBottom: 0 }}>
-    <h1>Giulio Zani</h1>
+    <h1 style={{ fontSize: "3.5em" }}>Giulio Zani</h1>
     <div className="icon-container">
       {data.links.map((link, i) => (
         <a key={i} href={link.url} target="_blank" rel="noopener noreferrer">
           <i
             className={`fa ${link.icon_name} fa-2x`}
-            style={{ color: "black" }}
+            style={{ color: "black", transform: "scale(0.75)" }}
           >
           </i>
         </a>

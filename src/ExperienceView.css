@@ -4,7 +4,7 @@
 }
 .experience-item {
   margin-bottom: 0.5rem;
-  padding-left: 0.0rem;
+  padding-left: 0rem;
 }
 
 .experience-title {
@@ -109,14 +109,7 @@ tr {
   gap: 5px; /* Space between skills */
 }
 
-/* .technology { */
-/*   border: 1px solid #e1e1e1; */
-/*   border-radius: 3px; */
-/*   padding: 2px 5px; */
-/*   font-size: 12px; */
-/* } */
 .technology {
-  /*background-color: #ddd;*/
   color: #333;
   padding: 2px 5px;
   margin-right: 10px;
@@ -140,5 +133,6 @@ tr {
 }
 
 .technology:hover {
+  color: white;
   background-color: #4898c3; /* A bit darker for hover effect */
 }

@@ -27,7 +27,7 @@
 }
 
 .card:hover {
-  background-color: #f1f1f1;
+  background-color: #eaf4fa;
 }
 
 .card:nth-child(odd) {
