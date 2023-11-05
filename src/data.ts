@@ -1,5 +1,7 @@
+// TODO: underline/highlight important words. Make it shorter?
 const description =
-  `I am an enthusiastic AI developer with a strong background in deep learning, experienced in applying frameworks like PyTorch, TensorFlow and JAX. With years of mentoring in AI/ML and coding in Python, I thrive on tackling fresh challenges and I love creating smart things! I'm looking for opportunities that require both AI engineering and research.`;
+  `I am a deep learning enthusiastic, experienced with PyTorch, TensorFlow and JAX. 
+I have years of tutoring in AI/ML and I love creating smart things! I'm looking for opportunities that require me to learn new skills, and and involve AI engineering and research.`;
 const spokenLanguages = [
   {
     name: "🇬🇧",

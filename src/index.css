@@ -59,27 +59,54 @@
     filter: blur(0);
   }
 }
+
+@media (max-width: 768px) {
+  .page {
+    box-sizing: border-box;
+    width: 100vw; /* Full width of the viewport */
+    height: calc(
+      100vw * 1.4142
+    ); /* Height adjusted to maintain A4 aspect ratio */
+    padding: 5vw; /* Adjust padding as needed */
+    margin: auto;
+    box-shadow: none;
+    page-break-after: auto;
+    /* Adjust font-size and other properties as necessary for smaller screens */
+  }
+}
 .page {
-  /* line-height: 1.5; */
-  animation: unblur 2s ease-out forwards;
+  box-sizing: border-box;
   width: 21cm;
-  height: 35cm;
-  padding-top: 1cm;
+  height: 29.7cm;
+  padding-top: 0.5cm;
   padding-bottom: 0;
-  padding-left: 2.5cm;
-  padding-right: 2.5cm;
+  padding-left: 1.5cm;
+  padding-right: 1.5cm;
   margin: 0.1cm auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   page-break-after: always;
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
+  font-size: 12px;
 }
 @media print {
   .page {
+    box-sizing: border-box;
+    padding-top: 0cm;
+    /* padding-bottom: 0; */
+    /* padding-left: 1cm; */
+    /* padding-right: 1cm; */
+    font-size: 12px;
     margin: 0;
     box-shadow: none !important;
     width: 21cm;
-    height: 35cm;
+    height: 29.7cm;
+    max-width: 21cm;
+    max-height: 35cm;
+    overflow: hidden;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    transform: scale(0.95);
   }
 }
 a {
@@ -93,44 +120,16 @@ a:hover {
 }
 h2,
 h3 {
-  margin-top: 40px;
+  margin-top: 2em;
+}
+h2{
+  font-size: 2em;
 }
 @media screen {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    /*color: #fff;*/
-  }
-
-  a {
-    /*color: #00f;*/
-  }
   .page {
     /*background-color: #333;*/
     /*color: #000;*/
     background-color: white;
-  }
-  .page,
-  .page a,
-  .page p,
-  .page h1,
-  .page h2,
-  .page h3,
-  .page h4,
-  .page h5,
-  .page h6,
-  .page ul,
-  .page ol,
-  .page li,
-  .page span {
-    /*color: #fff;*/
-  }
-  a:hover,
-  a:active {
-    /*color: #f00;*/
   }
   html,
   body {

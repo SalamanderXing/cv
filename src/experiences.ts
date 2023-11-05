@@ -140,6 +140,19 @@ interface Experience {
 //   },
 // ] as Experience[];
 //
+
+/*
+{
+    from: "Jan 2022",
+    to: "Sep 2021",
+    type: "Research Project",
+    location: "Maastricht",
+    title: "High-Dimensional ConvGAT",
+    description:
+      "Co-developed a Graph Attention Network variant for handling high-dimensional data.",
+    skills: ["Python", "PyTorch"],
+  },
+*/
 export default [
   {
     from: "Sep 2023",
@@ -151,9 +164,7 @@ export default [
       "Leading AI and prompt engineering in a startup focused on next-gen importance ranking.",
     skills: [
       "GPT-4",
-      "Fine-Tuning",
-      "Function-Calling",
-      "Prompt-Engineering",
+      "mBERT",
       "LangChain",
     ],
   },
@@ -178,6 +189,16 @@ export default [
     skills: ["PyTorch", "Keras", "Sklearn", "Numpy", "Pandas"],
   },
   {
+    from: "Sep 2023",
+    to: "Oct 2023",
+    type: "Side-Job",
+    location: "Online",
+    title: "Translating untranslatable words",
+    description:
+      "Study on how LLMs represent untranslatable words by fine-tuning multilingual models.",
+    skills: ["Fine-Tuning", "mBERT"],
+  },
+  {
     from: "Sep 2022",
     to: "Feb 2023",
     type: "Research Intern",
@@ -195,16 +216,6 @@ export default [
     title: "GANs for Weather Nowcasting",
     description:
       "Adapted GANs for video prediction, focusing on weather nowcasting.",
-    skills: ["Python", "PyTorch"],
-  },
-  {
-    from: "Jan 2022",
-    to: "Sep 2021",
-    type: "Research Project",
-    location: "Maastricht",
-    title: "High-Dimensional ConvGAT",
-    description:
-      "Co-developed a Graph Attention Network variant for handling high-dimensional data.",
     skills: ["Python", "PyTorch"],
   },
   {

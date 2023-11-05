@@ -40,8 +40,7 @@ const Header = () => (
       {data.links.map((link, i) => (
         <a key={i} href={link.url} target="_blank" rel="noopener noreferrer">
           <i
-            className={`fa ${link.icon_name} fa-2x`}
-            style={{ color: "black", transform: "scale(0.75)" }}
+            className={`fa ${link.icon_name} fa-2x vibrate-icon`}
           >
           </i>
         </a>
@@ -53,10 +52,11 @@ const Header = () => (
 const ProfileSection = () => (
   <div className="profile-section">
     <img src="profile.jpeg" alt="Giulio Zani" className="profile-pic" />
-    <div></div>
-    <p className="profile-description" style={{ marginTop: "20px" }}>
-      {data.description}
-    </p>
+    <div style={{ paddingTop: "1em", paddingBottom: "auto" }}>
+      <p className="profile-description">
+        {data.description}
+      </p>
+    </div>
     <div style={{ clear: "both" }}></div>
   </div>
 );
@@ -64,7 +64,7 @@ const ProfileSection = () => (
 const ExperienceSection = ({ until }: { until: number }) => (
   <div className="experience-section">
     <h2
-      style={{ marginTop: "-2rem", marginBottom: "2rem", marginLeft: "-9rem" }}
+      style={{ marginTop: "-1rem", marginBottom: "2rem", marginLeft: "-9rem" }}
     >
       Selected Experiences
     </h2>

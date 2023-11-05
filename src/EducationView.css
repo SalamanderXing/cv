@@ -4,64 +4,32 @@
 }
 
 .experience-item {
-  margin-bottom: 1rem;
-  padding-left: 1rem;
+  margin-bottom: 1em;
+  padding-left: 1em;
 }
 
 .experience-title {
-  font-size: 1.25rem;
+  font-size: 1.25em;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5em;
 }
 
 .experience-dates {
-  font-size: 0.875rem;
+  font-size: 0.875em;
   color: gray;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5em;
 }
 
 .experience-location,
 .experience-supervisor,
 .experience-type {
-  font-size: 0.875rem;
-  margin-bottom: 0.5rem;
+  font-size: 0.875em;
+  margin-bottom: 0.5em;
 }
 
 .experience-description {
-  font-size: 0.875rem;
-  margin-bottom: 0.5rem;
+  font-size: 0.875em;
+  margin-bottom: 0.5em;
 }
 
-.technologies {
-  margin-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.technology {
-  /*background-color: #ddd;*/
-  color: #333;
-  padding: 2px 5px;
-  margin-right: 10px;
-  border-radius: 20px;
-  border: 1px solid #5aa5d4;
-  display: inline-block;
-  font-size: 0.8em;
-  text-align: center;
-  transition: background-color 0.3s ease;
-}
-
-.soft-skill-pill {
-  color: black;
-  padding: 5px 10px;
-  margin: 1px;
-  border-radius: 20px;
-  border: 1px solid #5aa5d4;
-  display: inline-block;
-  font-size: 0.9em;
-  transition: background-color 0.3s ease;
-}
-
-.technology:hover {
-  background-color: #4898c3; /* A bit darker for hover effect */
-}
