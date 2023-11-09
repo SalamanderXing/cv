@@ -164,7 +164,7 @@ export default [
       "Leading AI and prompt engineering in a startup focused on next-gen importance ranking.",
     skills: [
       "GPT-4",
-      "mBERT",
+      "Fine-Tuning",
       "LangChain",
     ],
   },
