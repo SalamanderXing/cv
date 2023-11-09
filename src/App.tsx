@@ -4,6 +4,7 @@ import education from "./education";
 import ExperienceList from "./ExperienceView";
 import EducationList from "./EducationCard";
 import ProgrammingLanguages from "./ProgrammingLanguages";
+import Reviews from "./reviews";
 import data from "./data";
 import CardList from "./CardList";
 
@@ -28,6 +29,7 @@ const App = () => {
           <LanguagesSection />
         </div>
         <EducationList educationHistory={education} />
+        <Reviews reviews={data.reviews}/>
       </div>
     </>
   );
