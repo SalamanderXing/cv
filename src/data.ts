@@ -23,22 +23,28 @@ const spokenLanguages = [
 const links = [
   {
     icon_name: "fa-github",
-    text: "github.com/salamanderxing",
+    text: "Google Scholar",
+    url: "https://scholar.google.com/citations?user=BSd9550AAAAJ&hl=en",
+  },
+
+  {
+    icon_name: "fa-github",
+    text: "GitHub",
     url: "https://github.com/salamanderxing",
   },
   {
     icon_name: "fa-globe",
-    text: "salamanderxing.github.io/cv",
+    text: "Personal Website",
     url: "https://salamanderxing.github.io/",
   },
   {
     icon_name: "fa-envelope",
-    text: "giulio.zani@gmail.com",
+    text: "Email",
     url: "mailto:giulio.zani@gmail.com",
   },
   {
     icon_name: "fa-chalkboard-teacher",
-    text: "superprof.com",
+    text: "Superprof",
     url:
       "https://www.superprof.com/researcher-python-deep-learning-prompt-engineering-gpt-personalized-lessons-project-support.html",
   },
