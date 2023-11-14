@@ -9,10 +9,8 @@ import data from "./data";
 import CardList from "./CardList";
 
 /*
-<CardList
-          components={[<SoftSkillsSection />, <LanguagesSection />]}
-        />
-*/
+
+  */
 const App = () => {
   const until = 8;
   return (
@@ -29,22 +27,29 @@ const App = () => {
           <LanguagesSection />
         </div>
         <EducationList educationHistory={education} />
-        <Reviews reviews={data.reviews}/>
+        <Reviews reviews={data.reviews} />
       </div>
     </>
   );
 };
 //{/*<EducationSection />*/}
+//<i
+//   className={`fa ${link.icon_name} fa-2x vibrate-icon`}
+// >
+// </i>
 const Header = () => (
-  <div style={{ textAlign: "center", marginBottom: 0 }}>
+  <div style={{ textAlign: "center", marginBottom: "10px " }}>
     <h1 style={{ fontSize: "3.5em" }}>Giulio Zani</h1>
     <div className="icon-container">
       {data.links.map((link, i) => (
-        <a key={i} href={link.url} target="_blank" rel="noopener noreferrer">
-          <i
-            className={`fa ${link.icon_name} fa-2x vibrate-icon`}
-          >
-          </i>
+        <a
+          key={i}
+          href={link.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link-text"
+        >
+          {link.text}
         </a>
       ))}
     </div>

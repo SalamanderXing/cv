@@ -65,6 +65,7 @@ const ReviewsContainer = styled.section`
   font-family: 'Helvetica Neue', Arial, sans-serif;
   max-width: 210mm;
   padding: 15mm;
+  padding-top: 8mm;
   box-sizing: border-box;
   border-radius: 5mm;
 `;

@@ -118,12 +118,10 @@ a {
 a:hover {
   color: #0077cc;
 }
-h2,
-h3 {
-  margin-top: 2em;
-}
+
 h2{
   font-size: 2em;
+
 }
 @media screen {
   .page {

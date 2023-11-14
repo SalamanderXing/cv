@@ -36,7 +36,7 @@ const EducationList: React.FC<Props> = ({ educationHistory }) => {
   return (
     <>
       <div style={{ textAlign: "center" }}>
-        <h2>
+        <h2 >
           Education
         </h2>
       </div>

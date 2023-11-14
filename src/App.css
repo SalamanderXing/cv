@@ -25,10 +25,25 @@
   border-bottom: 1px solid #ddd; /* Thin border at the bottom */
 }
 
+.link-text {
+  font-family: "Arial", sans-serif; /* Replace with your preferred font */
+  font-size: 1em; /* Adjust size as necessary */
+  font-weight: 300; /* Lighter font-weight */
+  color: #555; /* A neutral, less pronounced color */
+  text-decoration: none; /* No underline */
+  margin-right: 20px; /* Space between links */
+}
+
+.link-text:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #000; /* Change color on hover for emphasis */
+}
+
 .icon-container {
   display: flex;
   gap: 10px; /* Space between icons */
   margin-top: 10px;
+  margin-bottom: 1000px;
 }
 
 .container::after {
@@ -50,7 +65,7 @@
   object-fit: cover; /* Ensures the image covers the width and height defined without distortion */
 }
 .profile-description {
-  text-align: justify;
+  /*text-align: justify;*/
   margin-bottom: auto;
   font-size: 1.2em;
 }
@@ -155,7 +170,6 @@ h1 {
 
 .language-name {
   font-weight: bold;
-  color: #1565c0;
   padding-right: 12px;
 }
 

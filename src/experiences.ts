@@ -159,7 +159,7 @@ export default [
     to: "Now",
     type: "Startup",
     location: "Online",
-    title: "LLMs as reliable reccomender systems",
+    title: "LLMs as reliable recommender systems",
     description:
       "Leading AI and prompt engineering in a startup focused on next-gen importance ranking.",
     skills: [
