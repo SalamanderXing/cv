@@ -23,7 +23,6 @@ const App = () => {
       <div className="page">
         <ExperienceList experiences={experiences.slice(until)} />
         <div>
-          <SoftSkillsSection />
           <LanguagesSection />
         </div>
         <EducationList educationHistory={education} />
