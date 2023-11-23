@@ -189,6 +189,16 @@ export default [
     skills: ["PyTorch", "Keras", "Sklearn", "Numpy", "Pandas"],
   },
   {
+    from: "Sep 2022",
+    to: "Feb 2023",
+    type: "Side-Project",
+    location: "",
+    title: "Faithful Agent",
+    description:
+      "Developed Mate, a framework for modular and reproducible deep learning projects.",
+    skills: ["Autonomous-Agents", "LSP", "LLMs"],
+  },
+  {
     from: "Sep 2023",
     to: "Oct 2023",
     type: "Side-Job",
@@ -197,16 +207,6 @@ export default [
     description:
       "Study on how LLMs represent untranslatable words by fine-tuning multilingual models.",
     skills: ["Fine-Tuning", "mBERT"],
-  },
-  {
-    from: "Sep 2022",
-    to: "Feb 2023",
-    type: "Research Intern",
-    location: "UvA, Amsterdam",
-    title: "Mate: Modular Deep Learning",
-    description:
-      "Developed Mate, a framework for modular and reproducible deep learning projects.",
-    skills: ["Python", "JAX", "PyTorch", "Keras", "MLOps"],
   },
   {
     from: "Jan 2022",
