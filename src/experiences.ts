@@ -189,8 +189,8 @@ export default [
     skills: ["PyTorch", "Keras", "Sklearn", "Numpy", "Pandas"],
   },
   {
-    from: "Sep 2022",
-    to: "Feb 2023",
+    from: "",
+    to: "",
     type: "Side-Project",
     location: "",
     title: "Faithful Agent",
