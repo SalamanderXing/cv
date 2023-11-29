@@ -39,6 +39,7 @@ const App = () => {
 const Header = () => (
   <div style={{ textAlign: "center", marginBottom: "10px " }}>
     <h1 style={{ fontSize: "3.5em" }}>Giulio Zani</h1>
+    <h3 style={{ fontSize: "1.5em", marginTop: 0 }}>Msc AI</h3>
     <div className="icon-container">
       {data.links.map((link, i) => (
         <a
